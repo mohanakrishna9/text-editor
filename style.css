@@ -1,0 +1,203 @@
+body {
+  background-image: url("background.jpg.jpg");
+  background-size: cover;
+  font-family: "Babylonica", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Tourney", cursive;
+}
+.heading {
+  font-family: "Tourney", cursive;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 30px;
+}
+.form {
+  width: 400px;
+  height: 480px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin-left: 38%;
+  margin-top: 1.5%;
+  backdrop-filter: blur(25px);
+  border-radius: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.formelement {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+}
+::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+textarea {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 9px;
+}
+textarea:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+#lowertext {
+  margin: 0;
+  color: black;
+  font-family: "Babylonica", cursive;
+  font-size: 45px;
+  text-decoration: overline;
+}
+button {
+  text-decoration: none;
+  color: black;
+  background-color: #90ee90;
+  padding: 8px 30px;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: blue;
+  box-shadow: 0 5px 15px gray;
+}
+.note {
+  margin: 0;
+  margin-top: 3px;
+  padding: 10px;
+  width: 99%;
+  height: 55px;
+  align-content: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid black;
+  line-height: 25px;
+}
+.note:hover {
+  background-color: #fff380;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid black;
+  line-height: 25px;
+}
+footer {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: chocolate;
+  cursor: pointer;
+  text-decoration: none;
+}
+#inputtext,
+#outputtext {
+  padding: 9px;
+}
+/*mobile design*/
+@media (max-width: 768px) {
+  body {
+    background-image: url("bg2.jpg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .heading {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    color: white;
+  }
+  #lowertext {
+    text-decoration: none;
+    font-size: 18px;
+    color: #90ee90;
+  }
+  .form {
+    margin: 0;
+    width: 345px;
+    height: 460px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+  .formelement {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+    border: 1px solid black;
+  }
+  button {
+    text-decoration: none;
+    color: orange;
+    background-color: black;
+    padding: 4px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0;
+    border: 2px solid black;
+    padding-bottom: 2px;
+  }
+  button:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 0 5px 15px black;
+  }
+  .note {
+    background-color: #fff380;
+    margin: 1px;
+    padding: 2px;
+    width: 345px;
+    height: 135px;
+    align-content: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid black;
+    line-height: 25px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  footer {
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  a:hover {
+    color: chocolate;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}

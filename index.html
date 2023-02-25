@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Text Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Babylonica&family=Montserrat&family=Tourney&display=swap"
+      rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico.png">
+  </head>
+  <body>
+    <div class="heading">
+      <strong>TEXT EDITOR</strong>
+      <p id="lowertext">Convert your text case</p>
+    </div>
+    <div class="form">
+      <div class="formelement">
+          <textarea id="inputtext" name="message" spellcheck="false" rows="10" cols="30" placeholder="Enter your text here"></textarea>
+          <textarea id="outputtext" name="message" rows="10" spellcheck="false" cols="30" placeholder="Output"></textarea>
+        <br /><br />
+        <button onclick="myFunction()">Convert</button>
+        <button onclick="clearContent()">Clear text</button>
+      </div>
+      </form>
+      <br>
+    </div>
+    <div class="note">
+      <caption><b>Note:</b> Currently, this webpage has the ability to convert text from lowercase letters to uppercase letters exclusively. This means that any text entered in lowercase form will be automatically transformed into its uppercase equivalent.</caption>
+    </div>
+  </body>
+  <br>
+  <footer><b>Source code: _</style></b><a href="https://github.com/mohanakrishna9" target="_blank">Github:mohanakrishna9</a></footer>
+</html>
